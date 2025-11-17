@@ -80,6 +80,10 @@ public class Campo {
         return minado;
     }
 
+    void setAberto(boolean aberto){
+        this.aberto = aberto;
+    }
+
     public boolean isAberto(){
         return aberto;
     }
@@ -87,6 +91,8 @@ public class Campo {
     public boolean isFechado(){
         return !isAberto();
     }
+
+
 
     public int getLinha() {
         return linha;

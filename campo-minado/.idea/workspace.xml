@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43fd0f13-72cd-45ca-8b1c-350017b1f4aa" name="Changes" comment="Implementacao do tabuleiroConsolo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Campo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Tabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/visao/TabuleiroConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/visao/TabuleiroConsole.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;matheus6874&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/matheus6874/campoMinado.git&quot;,
+    &quot;accountId&quot;: &quot;f9cc36fc-6b6c-4930-87c8-a3aaaaf7ae9d&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="35TrurIwN6f2chWb12ZI7vMUOWa" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Aplicacao.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CampoTeste.testeAbrirComVizinho.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAbrirComVizinho2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAbrirMinadoMarcado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAbrirMinadoNaoMarcado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAbrirNaoMinadoMarcado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAbrirNaoMinadoNaoMarcado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAlternarMarcacao.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeAlternarMarcacaoDuasChamadas.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeNaoVizinho.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeVizinhoReal.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1Direita.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1EmBaixo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1EmCima.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TesteSimples.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TesteSimples.testeSimples1Mais1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.Aplicacao">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.matheus.cm.Aplicacao" />
+      <module name="campo-minado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.matheus.cm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampoTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="campo-minado" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CampoTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampoTeste.testeAbrirComVizinho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="campo-minado" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CampoTeste" />
+      <option name="METHOD_NAME" value="testeAbrirComVizinho" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampoTeste.testeAbrirComVizinho2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="campo-minado" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CampoTeste" />
+      <option name="METHOD_NAME" value="testeAbrirComVizinho2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CampoTeste.testeAbrirMinadoNaoMarcado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="campo-minado" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CampoTeste" />
+      <option name="METHOD_NAME" value="testeAbrirMinadoNaoMarcado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aplicacao" />
+        <item itemvalue="JUnit.CampoTeste" />
+        <item itemvalue="JUnit.CampoTeste.testeAbrirComVizinho2" />
+        <item itemvalue="JUnit.CampoTeste.testeAbrirComVizinho" />
+        <item itemvalue="JUnit.CampoTeste.testeAbrirMinadoNaoMarcado" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43fd0f13-72cd-45ca-8b1c-350017b1f4aa" name="Changes" comment="" />
+      <created>1763145128850</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763145128850</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Configuracao Maven e adicao do Junit5">
+      <option name="closed" value="true" />
+      <created>1763145402017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763145402017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Criacao das classes de Tabuleiro e Campo">
+      <option name="closed" value="true" />
+      <created>1763146413429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763146413429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Criacao dos atributos da classe campo">
+      <option name="closed" value="true" />
+      <created>1763147112203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763147112203</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Criacao dos metodos da classe campo e adicao dos testes unitarios">
+      <option name="closed" value="true" />
+      <created>1763318058352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763318058352</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Finalizacao dos metodos da classe campo">
+      <option name="closed" value="true" />
+      <created>1763322484407</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763322484407</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Inicio implementacao da classe tabuleiro">
+      <option name="closed" value="true" />
+      <created>1763330452629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763330452629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementacao do tabuleiro">
+      <option name="closed" value="true" />
+      <created>1763386544953</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763386544954</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implementacao do tabuleiroConsolo">
+      <option name="closed" value="true" />
+      <created>1763387869067</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763387869067</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Configuracao Maven e adicao do Junit5" />
+    <MESSAGE value="Criacao das classes de Tabuleiro e Campo" />
+    <MESSAGE value="Criacao dos atributos da classe campo" />
+    <MESSAGE value="Criacao dos metodos da classe campo e adicao dos testes unitarios" />
+    <MESSAGE value="Finalizacao dos metodos da classe campo" />
+    <MESSAGE value="Inicio implementacao da classe tabuleiro" />
+    <MESSAGE value="Implementacao do tabuleiro" />
+    <MESSAGE value="Implementacao do tabuleiroConsolo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacao do tabuleiroConsolo" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/campo_minado$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1763322335608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
