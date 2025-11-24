@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fd0f13-72cd-45ca-8b1c-350017b1f4aa" name="Changes" comment="Implementacao do tabuleiroConsolo">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Campo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/visao/TabuleiroConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/visao/TabuleiroConsole.java" afterDir="false" />
+    <list default="true" id="43fd0f13-72cd-45ca-8b1c-350017b1f4aa" name="Changes" comment="Finalizacao do projeto">
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/modelo/Campo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/modelo/CampoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/modelo/CampoObservador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/modelo/ResultadoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/modelo/Tabuleiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/visao/Aplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/swing/visao/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,45 +58,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Aplicacao.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CampoTeste.testeAbrirComVizinho.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAbrirComVizinho2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAbrirMinadoMarcado.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAbrirMinadoNaoMarcado.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAbrirNaoMinadoMarcado.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAbrirNaoMinadoNaoMarcado.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAlternarMarcacao.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeAlternarMarcacaoDuasChamadas.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeNaoVizinho.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeVizinhoReal.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1Direita.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1EmBaixo.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia1EmCima.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CampoTeste.testeVizinhoRealDistancia2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TesteSimples.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TesteSimples.testeSimples1Mais1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Aplicacao.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Temp.executor": "Run",
+    "JUnit.CampoTeste.executor": "Coverage",
+    "JUnit.CampoTeste.testeAbrirComVizinho.executor": "Run",
+    "JUnit.CampoTeste.testeAbrirComVizinho2.executor": "Run",
+    "JUnit.CampoTeste.testeAbrirMinadoMarcado.executor": "Run",
+    "JUnit.CampoTeste.testeAbrirMinadoNaoMarcado.executor": "Run",
+    "JUnit.CampoTeste.testeAbrirNaoMinadoMarcado.executor": "Run",
+    "JUnit.CampoTeste.testeAbrirNaoMinadoNaoMarcado.executor": "Run",
+    "JUnit.CampoTeste.testeAlternarMarcacao.executor": "Run",
+    "JUnit.CampoTeste.testeAlternarMarcacaoDuasChamadas.executor": "Run",
+    "JUnit.CampoTeste.testeNaoVizinho.executor": "Run",
+    "JUnit.CampoTeste.testeVizinhoReal.executor": "Run",
+    "JUnit.CampoTeste.testeVizinhoRealDistancia1.executor": "Run",
+    "JUnit.CampoTeste.testeVizinhoRealDistancia1Direita.executor": "Run",
+    "JUnit.CampoTeste.testeVizinhoRealDistancia1EmBaixo.executor": "Run",
+    "JUnit.CampoTeste.testeVizinhoRealDistancia1EmCima.executor": "Run",
+    "JUnit.CampoTeste.testeVizinhoRealDistancia2.executor": "Run",
+    "JUnit.TesteSimples.executor": "Run",
+    "JUnit.TesteSimples.testeSimples1Mais1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.Aplicacao">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="swing.visao" />
+      <recent name="swing.modelo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Temp">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.matheus.cm.Aplicacao" />
       <module name="campo-minado" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.matheus.cm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.visao.Temp" />
+      <module name="campo-minado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swing.visao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,23 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CampoTeste.testeAbrirMinadoNaoMarcado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="campo-minado" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CampoTeste" />
-      <option name="METHOD_NAME" value="testeAbrirMinadoNaoMarcado" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.Aplicacao" />
         <item itemvalue="JUnit.CampoTeste" />
         <item itemvalue="JUnit.CampoTeste.testeAbrirComVizinho2" />
         <item itemvalue="JUnit.CampoTeste.testeAbrirComVizinho" />
-        <item itemvalue="JUnit.CampoTeste.testeAbrirMinadoNaoMarcado" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763387869067</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finalizacao do projeto">
+      <option name="closed" value="true" />
+      <created>1763422371408</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763422371408</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +256,8 @@
     <MESSAGE value="Inicio implementacao da classe tabuleiro" />
     <MESSAGE value="Implementacao do tabuleiro" />
     <MESSAGE value="Implementacao do tabuleiroConsolo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementacao do tabuleiroConsolo" />
+    <MESSAGE value="Finalizacao do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalizacao do projeto" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/campo_minado$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1763322335608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
