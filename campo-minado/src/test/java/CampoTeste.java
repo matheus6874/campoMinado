@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.matheus.cm.excecao.ExplosaoException;
-import org.matheus.cm.modelo.Campo;
+import org.matheus.cm.swing.modelo.Campo;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -90,14 +89,6 @@ public class CampoTeste {
         campo.alternarMarcacao();
         campo.minar();
         assertFalse(campo.abrir());
-    }
-
-    @Test
-    void testeAbrirMinadoNaoMarcado(){
-        campo.minar();
-        assertThrows(ExplosaoException.class,() -> {
-            campo.abrir();
-        });
     }
 
     @Test

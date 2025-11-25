@@ -1,4 +1,4 @@
-package swing.modelo;
+package org.matheus.cm.swing.modelo;
 
 public class ResultadoEvento {
     private final boolean ganhou;

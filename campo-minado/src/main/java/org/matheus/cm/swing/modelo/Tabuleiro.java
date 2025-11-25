@@ -1,4 +1,4 @@
-package swing.modelo;
+package org.matheus.cm.swing.modelo;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Consumer;
@@ -53,7 +53,6 @@ public class Tabuleiro implements CampoObservador{
                 .ifPresent(c -> c.abrir());
 
     }
-
 
     public void alternarMarcacao(int linha, int coluna){
         campos.parallelStream()
@@ -114,6 +113,7 @@ public void reiniciar(){
     private void mostrarMinas(){
         campos.stream().
                 filter(c -> c.isMinado()).
+                filter(c -> !c.isMarcado()).
                 forEach(c->c.setAberto(true));
     }
 }

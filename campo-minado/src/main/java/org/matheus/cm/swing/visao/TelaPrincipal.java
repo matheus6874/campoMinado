@@ -1,6 +1,6 @@
-package swing.visao;
+package org.matheus.cm.swing.visao;
 
-import swing.modelo.Tabuleiro;
+import org.matheus.cm.swing.modelo.Tabuleiro;
 
 import javax.swing.*;
 

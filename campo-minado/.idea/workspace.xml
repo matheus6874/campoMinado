@@ -4,14 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43fd0f13-72cd-45ca-8b1c-350017b1f4aa" name="Changes" comment="Inicio da criacao do projeto visual utilizando swing.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/swing/visao/BotaoCampo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swing/visao/PainelTabuleiro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/swing/visao/TelaPrincipal.java" afterDir="false" />
+    <list default="true" id="43fd0f13-72cd-45ca-8b1c-350017b1f4aa" name="Changes" comment="Criação do painel tabuleiro e start da aplicação">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/visao/BotaoCampo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swing/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swing/modelo/Tabuleiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swing/visao/Aplicacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swing/visao/Temp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/Aplicacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/excecao/ExplosaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/excecao/SairException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Campo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/modelo/Tabuleiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/matheus/cm/visao/TabuleiroConsole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/modelo/Campo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/modelo/Campo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/modelo/CampoEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/modelo/CampoEvento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/modelo/CampoObservador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/modelo/CampoObservador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/modelo/ResultadoEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/modelo/ResultadoEvento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/modelo/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/modelo/Tabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/visao/BotaoCampo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/visao/PainelTabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/visao/PainelTabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/swing/visao/TelaPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/matheus/cm/swing/visao/TelaPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CampoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CampoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +74,8 @@
     "Application.Main.executor": "Run",
     "Application.TelaPrincipal.executor": "Run",
     "Application.Temp.executor": "Run",
-    "JUnit.CampoTeste.executor": "Coverage",
+    "Application.org.matheus.cm.swing.visao.TelaPrincipal.executor": "Run",
+    "JUnit.CampoTeste.executor": "Run",
     "JUnit.CampoTeste.testeAbrirComVizinho.executor": "Run",
     "JUnit.CampoTeste.testeAbrirComVizinho2.executor": "Run",
     "JUnit.CampoTeste.testeAbrirMinadoMarcado.executor": "Run",
@@ -97,20 +108,7 @@
       <recent name="swing.modelo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TelaPrincipal">
-    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.matheus.cm.Aplicacao" />
-      <module name="campo-minado" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.matheus.cm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.org.matheus.cm.swing.visao.TelaPrincipal">
     <configuration name="TelaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="swing.visao.TelaPrincipal" />
       <module name="campo-minado" />
@@ -130,6 +128,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="swing.visao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.matheus.cm.swing.visao.TelaPrincipal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.matheus.cm.swing.visao.TelaPrincipal" />
+      <module name="campo-minado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.matheus.cm.swing.visao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TelaPrincipal" />
-        <item itemvalue="Application.Temp" />
-        <item itemvalue="Application.Aplicacao" />
+        <item itemvalue="Application.org.matheus.cm.swing.visao.TelaPrincipal" />
         <item itemvalue="JUnit.CampoTeste" />
         <item itemvalue="JUnit.CampoTeste.testeAbrirComVizinho2" />
+        <item itemvalue="Application.TelaPrincipal" />
+        <item itemvalue="Application.Temp" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764019034923</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Criação do painel tabuleiro e start da aplicação">
+      <option name="closed" value="true" />
+      <created>1764022966903</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764022966903</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,7 +288,8 @@
     <MESSAGE value="Implementacao do tabuleiroConsolo" />
     <MESSAGE value="Finalizacao do projeto" />
     <MESSAGE value="Inicio da criacao do projeto visual utilizando swing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio da criacao do projeto visual utilizando swing." />
+    <MESSAGE value="Criação do painel tabuleiro e start da aplicação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do painel tabuleiro e start da aplicação" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/campo_minado$CampoTeste.ic" NAME="CampoTeste Coverage Results" MODIFIED="1763322335608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
