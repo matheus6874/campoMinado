@@ -1,1 +1,1 @@
-Projeto de estudo do jogo campo minado via terminal utilizando Java e Junit para os testes unitários. 
+Projeto de estudo do jogo campo minad utilizando Java com Swing e Junit para os testes unitários. 
